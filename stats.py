@@ -138,9 +138,9 @@ class PlayerStats:
 
 
 if __name__ == '__main__':
-    file_set = {'data/BR 2022 Stage 2.txt', 'data/NA 2021 Stage 1.txt', \
-                'data/NA 2021 Stage 2.txt', 'data/NA 2021 Stage 3.txt', \
-                'data/NA 2022 Stage 1.txt', 'data/NA 2022 Stage 2.txt', 'test.txt'}
+    file_set = {'BR 2022 Stage 2.txt', 'NA 2021 Stage 1.txt', \
+                'NA 2021 Stage 2.txt', 'NA 2021 Stage 3.txt', \
+                'NA 2022 Stage 1.txt', 'NA 2022 Stage 2.txt'}
     file_name = comm = ' '
     while file_name not in file_set:
         print('Enter file name.')
